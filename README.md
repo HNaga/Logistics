@@ -15,7 +15,7 @@ To install this app, login to your site and click on "Installer". Search for <b>
 
 Go to your bench folder and setup the new app
 
-$ bench get-app transport_management_system https://github.com/hnaga/shipping_management
+$ bench get-app shipping_management https://github.com/hnaga/shipping_management
 $ bench --site testsite install-app shipping_management
 
 #### License

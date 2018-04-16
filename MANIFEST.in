@@ -4,6 +4,7 @@ include *.json
 include *.md
 include *.py
 include *.txt
+<<<<<<< HEAD
 recursive-include logistics *.css
 recursive-include logistics *.csv
 recursive-include logistics *.html
@@ -16,3 +17,17 @@ recursive-include logistics *.py
 recursive-include logistics *.svg
 recursive-include logistics *.txt
 recursive-exclude logistics *.pyc
+=======
+recursive-include shipping_management *.css
+recursive-include shipping_management *.csv
+recursive-include shipping_management *.html
+recursive-include shipping_management *.ico
+recursive-include shipping_management *.js
+recursive-include shipping_management *.json
+recursive-include shipping_management *.md
+recursive-include shipping_management *.png
+recursive-include shipping_management *.py
+recursive-include shipping_management *.svg
+recursive-include shipping_management *.txt
+recursive-exclude shipping_management *.pyc
+>>>>>>> eb0acbc2294d692d7da2f83a7a58e1076afbaf63

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
-<<<<<<< HEAD
+#<<<<<<< HEAD
 try: # for pip >= 10
 	from pip._internal.req import parse_requirements
 except ImportError: # for pip <= 9.0.3
@@ -23,12 +23,12 @@ _version_re = re.compile(r'__version__\s+=\s+(.*)')
 with open('shipping_management/__init__.py', 'rb') as f:
     version = str(ast.literal_eval(_version_re.search(
         f.read().decode('utf-8')).group(1)))
->>>>>>> eb0acbc2294d692d7da2f83a7a58e1076afbaf63
+#>>>>>>> eb0acbc2294d692d7da2f83a7a58e1076afbaf63
 
 requirements = parse_requirements("requirements.txt", session="")
 
 setup(
-<<<<<<< HEAD
+#<<<<<<< HEAD
 	name='logistics',
 	version=version,
 	description='Logistics',

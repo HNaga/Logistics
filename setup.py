@@ -24,10 +24,6 @@ setup(
 	version=version,
 	description='Logistics',
 
-	name='shipping_management',
-	version=version,
-	description='Shipping Management',
-
 	author='MYTH',
 	author_email='h.abulnaga@gmail.com',
 	packages=find_packages(),

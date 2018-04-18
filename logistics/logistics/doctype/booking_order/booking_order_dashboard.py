@@ -2,7 +2,7 @@ from frappe import _
 
 def get_data():
 	return {
-		'fieldname': 'production_order',
+		'fieldname': 'booking_order',
 		'transactions': [
 			{
 				'items': ['Stock Entry', 'Timesheet']
